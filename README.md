@@ -1,6 +1,6 @@
 # Titanic Survival Prediction (Kaggle)
 
-## 📌 Project Overview
+##  Project Overview
 This project aims to predict whether a passenger survived the Titanic disaster using machine learning techniques.  
 The dataset is taken from the famous **Kaggle Titanic: Machine Learning from Disaster** competition.
 
@@ -8,17 +8,17 @@ This project demonstrates a complete **end-to-end machine learning workflow**, i
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - Source: Kaggle Titanic Competition
 - Files used:
   - `train.csv` – contains features and target variable (`Survived`)
   - `test.csv` – contains features only (no target)
 
-⚠️ Note: Dataset files are **not included** in this repository due to Kaggle’s data usage policy.
+ Note: Dataset files are **not included** in this repository due to Kaggle’s data usage policy.
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 - Python
 - Pandas
 - NumPy
@@ -27,7 +27,7 @@ This project demonstrates a complete **end-to-end machine learning workflow**, i
 
 ---
 
-## 🔍 Features Used
+##  Features Used
 - Pclass
 - Sex
 - Age
@@ -38,7 +38,7 @@ This project demonstrates a complete **end-to-end machine learning workflow**, i
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 - Handled missing values:
   - Age → filled with median
   - Embarked → filled with most frequent value
@@ -50,20 +50,20 @@ This project demonstrates a complete **end-to-end machine learning workflow**, i
 
 ---
 
-## 🤖 Model Used
+##  Model Used
 - **Logistic Regression**
 - Train-validation split used for local evaluation
 - Final model trained on full training dataset
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 - Validation Accuracy: ~81%
 - Kaggle Public Score: **0.76**
 
 ---
 
-## 🏁 Kaggle Submission
+##  Kaggle Submission
 - Submission file contains only:
   - `PassengerId`
   - `Survived`
@@ -73,7 +73,7 @@ https://www.kaggle.com/competitions/titanic
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 - Understanding of ML pipeline
 - Handling missing data
 - Feature encoding techniques
@@ -82,7 +82,7 @@ https://www.kaggle.com/competitions/titanic
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 - Feature engineering (FamilySize, IsAlone, Title extraction)
 - Try advanced models like Random Forest or Gradient Boosting
 - Hyperparameter tuning
